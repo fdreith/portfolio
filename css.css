@@ -5,7 +5,7 @@ html, body {
 body {
   position: relative;
   text-align: center;
-  background-image: url(carles-rabada-unsplash.jpeg);
+  background-image: url(images/carles-rabada-unsplash1.jpeg);
   background-size: cover; 
   background-position: center center;
   background-repeat: no-repeat;
@@ -48,11 +48,13 @@ body {
 }
 
 .wrapper {
-  margin-right: auto; /* 1 */
-  margin-left: auto; /* 1 */
+  /* margin-right: auto; 
+  margin-left: auto;  */
+  margin: 3em auto 1em;
+
 
   max-width: 600px; /* 2 */
-  min-height: 250px;
+  /* min-height: 250px; */
 
   padding-right: 40px; /* 3 */
   padding-left:  40px; /* 3 */
@@ -67,9 +69,9 @@ a {
    color: #FFFFFF;
 }
 
-.connect a{
+.wrapper a {
   color: rgb(82, 80, 80);
-  padding: 10px
+    padding: 10px
 }
 
 button {
@@ -100,4 +102,12 @@ button:active {
 .mail {
   position:relative; 
   top:3px; 
+}
+
+.centered {
+  text-align: center;
+}
+
+.justify {
+  text-align: justify;
 }

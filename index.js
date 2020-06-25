@@ -20,6 +20,12 @@ function aboutMe() {
   addWrapper()
   content.innerHTML = `
   <p> Hello! I'm Francesca.</p>
+  <p class="justify">I'm a full stack engineer transitioning from a technical and creative background in product marketing and business operations into the field of web development. My experience has given me a comprehensive understanding of business operations and the ability to find innovative solutions to increase efficiency in various business systems, which lead to my interest in software development. Dedicated and adaptive employee with strong skills in communication and an excitement for new challenges.</p>
+
+
+  <p class="justify">I chose software engineering for a variety of reasons. Here are a few: 1) I love building things, whether it's a email marketing campaign for a new product or a business operating procedure, 2) I am a creative problem solver and excited by new challenges, and 3) I love learning.</p>
+
+  <p class="justify">I am interested in the way things work on an internal level. One of my favorite courses in college focused on how humans interact with their environment and technology. It highlighted the importance of designing for functionality, and this concept has resonated with me for years. My keen interest in the human experience helps me understand how best to build software designed for human interaction. </p>
   `
 
 }
@@ -28,22 +34,50 @@ function technicalSkills() {
   addWrapper()
   content.classList.add("wrapper")
   content.innerHTML = `
-  <p> Here are my technical skills.</p>
-  `
+  <div class="centered">
+  <br/>
+    <u>FRONTEND</u>
+      <p> Javascript | React | Redux | HTML </p>
+      <br/>
+    <u>BACKEND</u>
+      <p>Ruby | Ruby on Rails | SQL | Postgresql </p>
+      <br/>
+    <u>DESIGN</u>
+      <p> CSS | Bootstrap | Materialize | and some Illustrator</p>
+      `
+  // <p>MISC</p>
+  //   <p> Heroku | Netlify | Wordpress | Shopify</p>
 
 }
 
 function portfolioProjects() {
   addWrapper()
   content.innerHTML = `
-  <p> Take a look at my projects.</p>
+  <a href="https://fervent-jackson-99ccea.netlify.app/" target="_blank">TASK ASSIGN</a>
+  <ul> 
+    <li>React, Redux, Rails Backend</li>
+  </ul>
+    <a href="https://elegant-einstein-6eff92.netlify.app/" target="_blank">MINDFUL JOURNAL</a>
+  <ul> 
+    <li>React, Redux, Rails Backend</li>
+  </ul>
+    <a href="https://rails-book-club.herokuapp.com/" target="_blank">BOOK CLUB</a>
+  <ul> 
+    <li>React, Redux, Rails Backend</li>
+  </ul>
+    <a href="https://pet-sitter.herokuapp.com/" target="_blank">CRITTER SITTER</a>
+  <ul> 
+    <li>React, Redux, Rails Backend</li>
+  </ul>
   `
 }
 
 function resume() {
   addWrapper()
   content.innerHTML = `
-  <p> Download my resume. </p>
+  <span>
+    <a href="images/Francesca Dreith Resume.pdf" download target="_blank"><i class="fas fa-file-download"></i></a><a href="images/Francesca Dreith Resume.pdf" download target="_blank">Download Resume</a>
+  </span>
   `
 }
 

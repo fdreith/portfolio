@@ -34,16 +34,69 @@ function technicalSkills() {
   addWrapper()
   content.classList.add("wrapper")
   content.innerHTML = `
-  <div class="centered">
-  <br/>
-    <u>FRONTEND</u>
-      <p> Javascript | React | Redux | HTML </p>
-      <br/>
-    <u>BACKEND</u>
-      <p>Ruby | Ruby on Rails | SQL | Postgresql </p>
-      <br/>
-    <u>DESIGN</u>
-      <p> CSS | Bootstrap | Materialize | and some Illustrator</p>
+  <div class="inner-wrapper">
+    <p class="centered">FRONTEND</p>
+    <div class="grid-container">
+      <div class="grid-item">
+        <img src="images/logos/javascript.png" alt="Javascript logo"/>
+        <span class="caption">Javascript</span>
+        </div>
+      <div class="grid-item">
+        <img src="images/logos/react.png" alt="React logo"/>
+        <span class="caption">React/Redux</span>
+      </div>
+      <div class="grid-item">
+        <img src="images/logos/html5.png" alt="HTML logo"/>
+        <span class="caption">HTML</span>
+      </div>
+      <div class="grid-item">
+        <img src="images/logos/Sinatralogo.png" alt="Sinatra logo"/>
+        <span class="caption">Sinatra</span>
+      </div>
+    </div>
+  </div>
+  <div class="inner-wrapper">
+    <p class="centered">BACKEND</p>
+    <div class="grid-container">
+      <div class="grid-item">
+        <img src="images/logos/ruby.png" alt="Ruby logo"/>
+        <span class="caption">Ruby</span>
+      </div>
+      <div class="grid-item">
+        <img src="images/logos/rails.png" alt="Rails logo"/>
+        <span class="caption">Ruby on Rails</span>
+      </div>
+      <div class="grid-item">
+        <img src="images/logos/SQL.png" alt="SQL logo"/>
+        <span class="caption">SQL</span>
+      </div>
+      <div class="grid-item">
+        <img src="images/logos/postgresql.png" alt="Postgresql logo"/>
+        <span class="caption">Postgresql</span>
+      </div>
+    </div>
+  </div>
+  <div class="inner-wrapper">
+    <p class="centered">DESIGN</p>
+    <div class="grid-container">
+      <div class="grid-item">
+        <img src="images/logos/css3.png" alt="CSS logo"/>
+        <span class="caption">CSS</span>
+      </div>
+      <div class="grid-item">
+        <img src="images/logos/bootstrap.png" alt="Bootstrap logo"/>
+        <span class="caption">Bootstrap</span>
+      </div>
+      <div class="grid-item">
+        <img src="images/logos/materialize.png" alt="Materialize logo"/>
+        <span class="caption">Materialize</span>
+      </div>
+      <div class="grid-item">
+        <img src="images/logos/adobe-illustrator.png" alt="Illustrator logo"/>
+        <span class="caption">Illustrator</span>
+      </div>
+    </div>
+  </div>
       `
   // <p>MISC</p>
   //   <p> Heroku | Netlify | Wordpress | Shopify</p>

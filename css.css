@@ -8,7 +8,7 @@ body {
   background-image: url(images/carles-rabada-unsplash1.jpeg);
   background-size: cover; 
   background-position: center center;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   color: #070707;
   display: flex;
   flex-direction: column;
@@ -27,7 +27,7 @@ body {
 }
 
 .pic {
-    position: relative;
+  position: relative;
   width: 240px;
   height: 240px;
   float: left;
@@ -48,13 +48,23 @@ body {
 }
 
 .wrapper {
-  /* margin-right: auto; 
-  margin-left: auto;  */
   margin: 3em auto 1em;
 
+  max-width: 600px; /* 2 */
+
+  padding-right: 40px; /* 3 */
+  padding-left:  40px; /* 3 */
+  padding-top: 20px; /* 3 */
+  padding-bottom:  20px; /* 3 */
+
+  background-color: #000;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.inner-wrapper {
+  margin: 1em auto 1em;
 
   max-width: 600px; /* 2 */
-  /* min-height: 250px; */
 
   padding-right: 40px; /* 3 */
   padding-left:  40px; /* 3 */
@@ -71,7 +81,7 @@ a {
 
 .wrapper a {
   color: rgb(82, 80, 80);
-    padding: 10px
+  padding: 10px
 }
 
 button {
@@ -93,7 +103,6 @@ button:active {
   transform: scale(0.99);
 }
 
-
 #nav {
   display: flex;
   justify-content: space-between;
@@ -111,3 +120,50 @@ button:active {
 .justify {
   text-align: justify;
 }
+/* 
+.four {
+  grid-column: 3;
+  grid-row: 3;
+} */
+
+.grid-container {
+  /* your properties here */
+  display: grid;
+  grid-template: auto / 1fr 1fr 1fr 1fr;
+
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .grid-container {
+  display: grid;
+  grid-template: auto / 1fr 1fr;  }
+}
+.grid-item {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+.grid-item img{
+  max-width: 100px;
+  max-height: 100px;
+
+  /* position: relative; */
+  /* top: 50%;
+  transform: translateY(-50%); */
+
+}
+
+/* .grid-item p{
+   position: relative;
+  bottom: 0px;
+} */
+
+.caption {
+  display: block;
+  /* position: relative;
+  bottom: 0px; */
+}
+
+

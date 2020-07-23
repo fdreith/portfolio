@@ -186,6 +186,8 @@ hr {
   background-image: url(images/luis-villasmil-unsplash.jpg);
   background-size: cover;
   background-position: center center;
+  filter: alpha(opacity=70);
+  opacity: 0.7;
 }
 
 .mindfulJournalContainer {
@@ -194,6 +196,8 @@ hr {
   background-image: url(images/priscilla-du-preez-unsplash.jpg);
   background-size: cover;
   background-position: center center;
+  filter: alpha(opacity=70);
+  opacity: 0.7;
 }
 
 .bookClubContainer {
@@ -202,6 +206,8 @@ hr {
   background-image: url(images/thought-catalog-unsplash.jpg);
   background-size: cover;
   background-position: center center;
+  filter: alpha(opacity=70);
+  opacity: 0.7;
 }
 
 .citterSitterContainer {
@@ -210,13 +216,17 @@ hr {
   background-image: url(images/justin-veenema-unsplash.jpg);
   background-size: cover;
   background-position: center center;
+  filter: alpha(opacity=70);
+  opacity: 0.7;
 }
 
 .projectDescription {
   text-align: center;
-  vertical-align: middle;
-  padding-right: 50px; /* 3 */
-  padding-left: 50px; /* 3 */
-  padding-top: 60px; /* 3 */
-  padding-bottom: 60px; /* 3 */
+  padding-right: 70px; /* 3 */
+  padding-left: 70px; /* 3 */
+  padding-top: 20%; /* 3 */
+  padding-bottom: 0; /* 3 */
+  color: #000000;
+  filter: alpha(opacity=100);
+  opacity: 1;
 }

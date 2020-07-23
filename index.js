@@ -106,7 +106,7 @@ function portfolioProjects() {
   <div class="projectsContainer">
     <div class="taskAssignContainer">
       <div class="projectDescription">
-        <h3>Task Assign</h3>
+        <h2>Task Assign</h2>
         <p>Task management system for teams. Ability to assign tasks to other team members, comment on tasks, and track their progress.</p>
         <span>
           <button>Github</button>
@@ -116,7 +116,7 @@ function portfolioProjects() {
     </div>
     <div class="mindfulJournalContainer">
       <div class="projectDescription">
-        <h3>Mindful Journal</h3>
+        <h2>Mindful Journal</h2>
         <p>A digital journal to help maintain a writing goal with prompts based on a particular mood, and a timer to help the user stay on task. The user can look back at past entries by mood.</p>
         <span>
           <button>Github</button>
@@ -126,7 +126,7 @@ function portfolioProjects() {
     </div>
     <div class="bookClubContainer">
       <div class="projectDescription">
-        <h3>Book Club</h3>
+        <h2>Book Club</h2>
         <p>A digital book club for users to track books they have read or would like to read, and have discussions surrounding a particular book.</p>
         <span>
           <button>Github</button>
@@ -136,7 +136,7 @@ function portfolioProjects() {
     </div>
     <div class="citterSitterContainer">
       <div class="projectDescription">
-        <h3>Citter Sitter</h3>
+        <h2>Citter Sitter</h2>
         <p>Communication and tracking tool for households with multiple people caring for a pet, including family, roommates, pet sitters or dog walkers.</p>
         <span>
           <button>Github</button>

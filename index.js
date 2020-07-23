@@ -21,7 +21,6 @@ function aboutMe() {
   <p> Hello! I'm Francesca.</p>
   <p class="justify">I'm a full stack engineer transitioning from a technical and creative background in product marketing and business operations into the field of web development. My experience has given me a comprehensive understanding of business operations and the ability to find innovative solutions to increase efficiency in various business systems, which lead to my interest in software development. Dedicated and adaptive employee with strong skills in communication and an excitement for new challenges.</p>
 
-
   <p class="justify">I chose software engineering for a variety of reasons. Here are a few: 1) I love building things, whether it's a email marketing campaign for a new product or a business operating procedure, 2) I am a creative problem solver and excited by new challenges, and 3) I love learning.</p>
 
   <p class="justify">I am interested in the way things work on an internal level. One of my favorite courses in college focused on how humans interact with their environment and technology. It highlighted the importance of designing for functionality, and this concept has resonated with me for years. My keen interest in the human experience helps me understand how best to build software designed for human interaction. </p>
@@ -104,7 +103,7 @@ function portfolioProjects() {
   addWrapper();
   content.innerHTML = `
   <div class="projectsContainer">
-    <div class="taskAssignContainer">
+    <div class="taskAssignContainer project">
       <div class="projectDescription">
         <h2>Task Assign</h2>
         <p>Task management system for teams. Ability to assign tasks to other team members, comment on tasks, and track their progress.</p>
@@ -114,7 +113,7 @@ function portfolioProjects() {
         </span>
       </div>
     </div>
-    <div class="mindfulJournalContainer">
+    <div class="mindfulJournalContainer project">
       <div class="projectDescription">
         <h2>Mindful Journal</h2>
         <p>A digital journal to help maintain a writing goal with prompts based on a particular mood, and a timer to help the user stay on task. The user can look back at past entries by mood.</p>
@@ -124,7 +123,7 @@ function portfolioProjects() {
         </span>
       </div>
     </div>
-    <div class="bookClubContainer">
+    <div class="bookClubContainer project">
       <div class="projectDescription">
         <h2>Book Club</h2>
         <p>A digital book club for users to track books they have read or would like to read, and have discussions surrounding a particular book.</p>
@@ -134,7 +133,7 @@ function portfolioProjects() {
         </span>
       </div>
     </div>
-    <div class="citterSitterContainer">
+    <div class="citterSitterContainer project">
       <div class="projectDescription">
         <h2>Citter Sitter</h2>
         <p>Communication and tracking tool for households with multiple people caring for a pet, including family, roommates, pet sitters or dog walkers.</p>

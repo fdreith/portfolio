@@ -104,42 +104,47 @@ function portfolioProjects() {
   addWrapper();
   content.innerHTML = `
   <div class="projectsContainer">
-    <div class="taskAssignContainer">Task Assign</div>
-    <div class="mindfulJournalContainer">Mindful Journal</div>
-    <div class="bookClubContainer">Book Club</div>
-    <div class="citterSitterContainer">Citter Sitter</div>
+    <div class="taskAssignContainer">
+      <div class="projectDescription">
+        <h3>Task Assign</h3>
+        <p>Task management system for teams. Ability to assign tasks to other team members, comment on tasks, and track their progress.</p>
+        <span>
+          <button>Github</button>
+          <button>Demo</button>
+        </span>
+      </div>
+    </div>
+    <div class="mindfulJournalContainer">
+      <div class="projectDescription">
+        <h3>Mindful Journal</h3>
+        <p>A digital journal to help maintain a writing goal with prompts based on a particular mood, and a timer to help the user stay on task. The user can look back at past entries by mood.</p>
+        <span>
+          <button>Github</button>
+          <button>Demo</button>
+        </span>
+      </div>
+    </div>
+    <div class="bookClubContainer">
+      <div class="projectDescription">
+        <h3>Book Club</h3>
+        <p>A digital book club for users to track books they have read or would like to read, and have discussions surrounding a particular book.</p>
+        <span>
+          <button>Github</button>
+          <button>Demo</button>
+        </span>
+      </div>
+    </div>
+    <div class="citterSitterContainer">
+      <div class="projectDescription">
+        <h3>Citter Sitter</h3>
+        <p>Communication and tracking tool for households with multiple people caring for a pet, including family, roommates, pet sitters or dog walkers.</p>
+        <span>
+          <button>Github</button>
+          <button>Demo</button>
+        </span>
+      </div>
+    </div>
   </div>
-  <a href="https://fervent-jackson-99ccea.netlify.app/" target="_blank"><b>TASK ASSIGN</b></a>
-  <p>Task management system for teams. Ability to assign tasks to other team members, comment on tasks, and track their progress.</p>
-  <ul> 
-    <li>Developed using React, Redux, HTML, and CSS for the frontend, with a Ruby on Rails backend.</li>
-    <li>Implemented user sign in with Bcrypt.</li>
-  </ul>
-  <hr/>
-  <a href="https://elegant-einstein-6eff92.netlify.app/" target="_blank"><b>MINDFUL JOURNAL</b></a>
-    <p>A digital journal to help maintain a writing goal with prompts based on a particular mood, and a timer to help the user stay on task. The user can look back at past entries by mood.</p>
-  <ul> 
-    <li>Developed HTML, CSS, and Javascript frontend with a Rails API backend, with AJAX handled interactions between client and the server, and used JSON as the communication format.</li>
-    <li>Optimizing code by using Object Oriented Javascript classes to compartmentalize code.</li>
-    <li>Implemented serializers to streamline code, minimize AJAX calls, and display clean data within the relationships of the models.</li>
-  </ul>
-   <hr/>
-  <a href="https://rails-book-club.herokuapp.com/" target="_blank"><b>BOOK CLUB</b></a>
-  <p>A digital book club for users to track books they have read or would like to read, and have discussions surrounding a particular book.</p>
-  <ul> 
-    <li>Built on MVC framework with Ruby on Rails, utilizing a CSS library and SQLite.</li>
-    <li>Designed validations for user input and class level activerecord chainable scope methods for search abilities.</li>
-    <li>Implemented Devise for User Authentication and Omniauth for third party Authentication with Google.</li>
-    <li>Utilized appropriate restful URLs & helper methods for efficient code.</li>
-  </ul>
-   <hr/>
-  <a href="https://pet-sitter.herokuapp.com/" target="_blank"><b>CRITTER SITTER</b></a>
-  <p>Communication and tracking tool for households with multiple people caring for a pet, including family, roommates, pet sitters or dog walkers.</p>
-  <ul> 
-    <li>Designed a Content Management System (CMS) with full CRUD functionality, and Model-View-Controller (MVC) framework using ActiveRecord and Sinatra.</li>
-    <li>Employed password hashing with Bcrypt for user sign in, and validations for uniqueness for user email.</li>
-    <li>Developed validations for uniqueness for user input, and displays validation failures to user with error messages.</li>
-  </ul>
   `;
 }
 

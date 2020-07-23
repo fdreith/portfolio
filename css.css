@@ -211,3 +211,12 @@ hr {
   background-size: cover;
   background-position: center center;
 }
+
+.projectDescription {
+  text-align: center;
+  vertical-align: middle;
+  padding-right: 50px; /* 3 */
+  padding-left: 50px; /* 3 */
+  padding-top: 60px; /* 3 */
+  padding-bottom: 60px; /* 3 */
+}

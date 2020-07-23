@@ -175,26 +175,39 @@ hr {
   padding: 0;
 }
 
+.projectsContainer {
+  position: relative;
+  margin: auto;
+}
+
 .taskAssignContainer {
-  width: 200px;
-  height: 200px;
+  width: 600px;
+  height: 400px;
   background-image: url(images/luis-villasmil-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
 }
 
 .mindfulJournalContainer {
-  width: 200px;
-  height: 200px;
+  width: 600px;
+  height: 400px;
   background-image: url(images/priscilla-du-preez-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
 }
 
 .bookClubContainer {
-  width: 200px;
-  height: 200px;
+  width: 600px;
+  height: 400px;
   background-image: url(images/thought-catalog-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
 }
 
 .citterSitterContainer {
-  width: 200px;
-  height: 200px;
+  width: 600px;
+  height: 400px;
   background-image: url(images/justin-veenema-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
 }

@@ -108,8 +108,8 @@ function portfolioProjects() {
         <h2>Task Assign</h2>
         <p>Task management system for teams. Ability to assign tasks to other team members, comment on tasks, and track their progress.</p>
         <span>
-          <button>Github</button>
-          <button>Demo</button>
+          <a href="https://github.com/fdreith/react-project-frontend" target="_blank"><button>Github</button></a>
+         <a href="https://fervent-jackson-99ccea.netlify.app/login" target="_blank"><button>Demo</button></a>
         </span>
       </div>
     </div>
@@ -118,8 +118,8 @@ function portfolioProjects() {
         <h2>Mindful Journal</h2>
         <p>A digital journal to help maintain a writing goal with prompts based on a particular mood, and a timer to help the user stay on task. The user can look back at past entries by mood.</p>
         <span>
-          <button>Github</button>
-          <button>Demo</button>
+          <a href="https://github.com/fdreith/javascript-api-project" target="_blank"><button>Github</button></a>
+          <a href="https://elegant-einstein-6eff92.netlify.app/" target="_blank"><button>Demo</button></a>
         </span>
       </div>
     </div>
@@ -128,8 +128,8 @@ function portfolioProjects() {
         <h2>Book Club</h2>
         <p>A digital book club for users to track books they have read or would like to read, and have discussions surrounding a particular book.</p>
         <span>
-          <button>Github</button>
-          <button>Demo</button>
+          <a href="https://github.com/fdreith/rails-project" target="_blank"><button>Github</button></a>
+          <a href="https://rails-book-club.herokuapp.com/" target="_blank"><button>Demo</button></a>
         </span>
       </div>
     </div>
@@ -138,8 +138,8 @@ function portfolioProjects() {
         <h2>Citter Sitter</h2>
         <p>Communication and tracking tool for households with multiple people caring for a pet, including family, roommates, pet sitters or dog walkers.</p>
         <span>
-          <button>Github</button>
-          <button>Demo</button>
+          <a href="https://github.com/fdreith/sinatra_project" target="_blank"><button>Github</button></a>
+          <a href="https://pet-sitter.herokuapp.com/login" target="_blank"><button>Demo</button></a>
         </span>
       </div>
     </div>

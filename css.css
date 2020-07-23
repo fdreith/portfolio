@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -6,7 +7,7 @@ body {
   position: relative;
   text-align: center;
   background-image: url(images/carles-rabada-unsplash1.jpeg);
-  background-size: cover; 
+  background-size: cover;
   background-position: center center;
   /* background-repeat: no-repeat; */
   color: #070707;
@@ -33,12 +34,11 @@ body {
   float: left;
 }
 
-
-.footer{
+.footer {
   flex-shrink: 0;
   text-align: center;
   font-size: small;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* pushes footer to the bottom */
@@ -53,9 +53,9 @@ body {
   max-width: 600px; /* 2 */
 
   padding-right: 40px; /* 3 */
-  padding-left:  40px; /* 3 */
+  padding-left: 40px; /* 3 */
   padding-top: 20px; /* 3 */
-  padding-bottom:  20px; /* 3 */
+  padding-bottom: 20px; /* 3 */
 
   background-color: #000;
   background: rgba(255, 255, 255, 0.8);
@@ -67,21 +67,21 @@ body {
   max-width: 600px; /* 2 */
 
   padding-right: 40px; /* 3 */
-  padding-left:  40px; /* 3 */
+  padding-left: 40px; /* 3 */
   padding-top: 20px; /* 3 */
-  padding-bottom:  20px; /* 3 */
+  padding-bottom: 20px; /* 3 */
 
   background-color: #000;
   background: rgba(255, 255, 255, 0.8);
 }
 
 a {
-   color: #FFFFFF;
+  color: #ffffff;
 }
 
 .wrapper a {
   color: rgb(82, 80, 80);
-  padding: 10px
+  padding: 10px;
 }
 
 button {
@@ -92,7 +92,7 @@ button {
 
 button:hover,
 button:focus {
-  background:rgba(196, 193, 193, 0.8);
+  background: rgba(196, 193, 193, 0.8);
 }
 
 button:focus {
@@ -109,8 +109,8 @@ button:active {
 }
 
 .mail {
-  position:relative; 
-  top:3px; 
+  position: relative;
+  top: 3px;
 }
 
 .centered {
@@ -136,8 +136,9 @@ button:active {
 
 @media (max-width: 600px) {
   .grid-container {
-  display: grid;
-  grid-template: auto / 1fr 1fr;  }
+    display: grid;
+    grid-template: auto / 1fr 1fr;
+  }
 }
 .grid-item {
   display: inline-block;
@@ -145,14 +146,13 @@ button:active {
   position: relative;
 }
 
-.grid-item img{
+.grid-item img {
   max-width: 100px;
   max-height: 100px;
 
   /* position: relative; */
   /* top: 50%;
   transform: translateY(-50%); */
-
 }
 
 /* .grid-item p{
@@ -167,12 +167,34 @@ button:active {
 }
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
+.taskAssignContainer {
+  width: 200px;
+  height: 200px;
+  background-image: url(images/luis-villasmil-unsplash.jpg);
+}
 
+.mindfulJournalContainer {
+  width: 200px;
+  height: 200px;
+  background-image: url(images/priscilla-du-preez-unsplash.jpg);
+}
+
+.bookClubContainer {
+  width: 200px;
+  height: 200px;
+  background-image: url(images/thought-catalog-unsplash.jpg);
+}
+
+.citterSitterContainer {
+  width: 200px;
+  height: 200px;
+  background-image: url(images/justin-veenema-unsplash.jpg);
+}

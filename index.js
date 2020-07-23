@@ -103,6 +103,11 @@ function technicalSkills() {
 function portfolioProjects() {
   addWrapper();
   content.innerHTML = `
+  <div class="taskAssignContainer">Task Assign</div>
+  <div class="mindfulJournalContainer">Mindful Journal</div>
+  <div class="bookClubContainer">Book Club</div>
+  <div class="citterSitterContainer">Citter Sitter</div>
+
   <a href="https://fervent-jackson-99ccea.netlify.app/" target="_blank"><b>TASK ASSIGN</b></a>
   <p>Task management system for teams. Ability to assign tasks to other team members, comment on tasks, and track their progress.</p>
   <ul> 

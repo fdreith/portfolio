@@ -117,44 +117,28 @@ button:active {
 .justify {
   text-align: justify;
 }
-/* 
-.four {
-  grid-column: 3;
-  grid-row: 3;
-} */
 
 .grid-container {
-  /* your properties here */
   display: grid;
-  grid-template: auto / 1fr 1fr 1fr 1fr;
-
   position: relative;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fill, 120px);
 }
 
 .grid-item {
   display: inline-block;
   text-align: center;
   position: relative;
+  align-self: end;
 }
 
 .grid-item img {
-  max-width: 100px;
-  max-height: 100px;
-
-  /* position: relative; */
-  /* top: 50%;
-  transform: translateY(-50%); */
+  max-width: 70px;
+  max-height: 70px;
 }
-
-/* .grid-item p{
-   position: relative;
-  bottom: 0px;
-} */
 
 .caption {
   display: block;
-  /* position: relative;
-  bottom: 0px; */
 }
 
 hr {
@@ -226,10 +210,6 @@ hr {
 }
 
 @media (max-width: 600px) {
-  .grid-container {
-    display: grid;
-    grid-template: auto / 1fr 1fr;
-  }
   .pic {
     float: none;
   }

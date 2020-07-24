@@ -62,11 +62,7 @@ body {
 
   max-width: 600px;
   /* width: 90vh; */
-
-  padding-right: 40px; /* 3 */
-  padding-left: 40px; /* 3 */
-  padding-top: 20px; /* 3 */
-  padding-bottom: 20px; /* 3 */
+  padding: 5%;
 
   background-color: #000;
   background: rgba(255, 255, 255, 0.8);
@@ -120,9 +116,11 @@ button:active {
 
 .grid-container {
   display: grid;
-  position: relative;
+  position: flex;
   grid-gap: 5px;
   grid-template-columns: repeat(auto-fill, 120px);
+  justify-content: center;
+  align-content: center;
 }
 
 .grid-item {

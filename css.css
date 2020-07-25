@@ -202,11 +202,15 @@ hr {
   padding-right: 10%;
   padding-left: 10%;
   padding-top: 20%;
-  padding-bottom: 0;
+  padding-bottom: 40%;
 }
 
 @media (max-width: 600px) {
   .pic {
     float: none;
+  }
+  .projectDescription {
+    display: block;
+    background: rgba(255, 255, 255, 0.493);
   }
 }

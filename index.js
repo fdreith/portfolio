@@ -18,12 +18,16 @@ function addWrapper() {
 function aboutMe() {
   addWrapper();
   content.innerHTML = `
-  <p> Hello! I'm Francesca.</p>
-  <p class="justify">I'm a full stack engineer transitioning from a technical and creative background in product marketing and business operations into the field of web development. My experience has given me a comprehensive understanding of business operations and the ability to find innovative solutions to increase efficiency in various business systems, which lead to my interest in software development. Dedicated and adaptive employee with strong skills in communication and an excitement for new challenges.</p>
+  <p> Welcome to my portfolio. I'm Francesca.</p>
+  <p class="justify">I'm a full stack engineer with a technical and creative background in product marketing and business operations. My experience has given me a comprehensive understanding of business operations and the ability to find innovative solutions to increase efficiency in various business systems, leading to my interest in software development.</p>
 
-  <p class="justify">I chose software engineering for a variety of reasons. Here are a few: 1) I love building things, whether it's a email marketing campaign for a new product or a business operating procedure, 2) I am a creative problem solver and excited by new challenges, and 3) I love learning.</p>
+  <p class="justify">I chose software engineering for a variety of reasons. Here are a few:  1) I love building things, whether it's a email marketing campaign for a new product or a business operating procedure.  2) I am a creative problem solver and excited by new challenges.  3) I love learning.</p>
 
-  <p class="justify">I am interested in the way things work on an internal level. One of my favorite courses in college focused on how humans interact with their environment and technology. It highlighted the importance of designing for functionality, and this concept has resonated with me for years. My keen interest in the human experience helps me understand how best to build software designed for human interaction. </p>
+  <p class="justify">Growing up with an arts focused education gave me a good understanding of visual design fundamentals. A strong interest in design coupled with a craving to understand how things work on an internal level has contributed to my interest in software development. One of my favorite courses in college focused on how humans interact with their environment and technology. It highlighted the importance of designing for functionality, and this concept has resonated with me for years. My keen interest in the human experience helps me build software designed for human interaction. </p>
+
+  <p class="justify">I'm a dedicated and adaptive employee with strong skills in communication and an excitement for new challenges. I am currently looking for work that contributes to bettering the human experience, whether in the workplace or in personal development.</p>
+
+  <p class="justify">Take a look around my portfolio and reach out if there is anything that interests you, or if you would like to know more.</p>
   `;
 }
 

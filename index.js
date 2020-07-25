@@ -10,7 +10,6 @@ function appendButtonListeners() {
     promptButtons[i].addEventListener("click", eval(promptButtons[i].id));
   }
 }
-
 function addWrapper() {
   content.classList.add("wrapper");
 }

@@ -20,7 +20,7 @@ function aboutMe() {
   <h3>About me.</h3>
   <p class="justify">I'm a full stack engineer with a technical and creative background in product marketing and business operations. My experience has given me a comprehensive understanding of business operations and the ability to find innovative solutions to increase efficiency in various business systems, leading to my interest in software development.</p>
 
-  <p class="justify">I chose software engineering for a variety of reasons. Here are a few:  1) I love building things, whether it's a email marketing campaign for a new product or a business operating procedure.  2) I am a creative problem solver and excited by new challenges.  3) I love learning.</p>
+  <p class="justify">I chose software engineering for a variety of reasons. Here are a few:  1) I love building things, whether it's an email marketing campaign for a new product or a business operating procedure.  2) I am a creative problem solver and excited by new challenges.  3) I love learning.</p>
 
   <p class="justify">Growing up with an arts focused education gave me a good understanding of visual design fundamentals. A strong interest in design coupled with a craving to understand how things work on an internal level has contributed to my interest in software development. One of my favorite courses in college focused on how humans interact with their environment and technology. It highlighted the importance of designing for functionality, and this concept has resonated with me for years. My keen interest in the human experience helps me build software designed for human interaction. </p>
 
@@ -138,7 +138,7 @@ function portfolioProjects() {
     </div>
     <div class="citterSitterContainer project">
       <div class="projectDescription">
-        <h2>Citter Sitter</h2>
+        <h2>Critter Sitter</h2>
         <p>Communication and tracking tool for households with multiple people caring for a pet, including family, roommates, pet sitters or dog walkers.</p>
         <span>
           <a href="https://github.com/fdreith/sinatra_project" target="_blank"><button>Github</button></a>
